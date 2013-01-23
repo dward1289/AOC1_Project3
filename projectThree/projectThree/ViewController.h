@@ -13,5 +13,7 @@
     
 }
 
--(void)add:(NSInteger*)firstInt secondInt:(NSInteger*)secondInt;
+-(void)add:(int)firstInt secondInt:(int)secondInt;
+-(void)compare:(int)thisInt thatInt:(int)thatInt;
+-(void)append:(NSString*)firstString secondString:(NSString*)secondString;
 @end
