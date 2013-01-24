@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>projectThree.xcscheme</key>
+		<key>proj3.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>F49E480816AF832B006E970F</key>
+		<key>F4E77D5816B0994200B39C09</key>
 		<dict>
 			<key>primary</key>
 			<true/>

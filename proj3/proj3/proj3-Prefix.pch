@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'projectThree' target in the 'projectThree' project
+// Prefix header for all source files of the 'proj3' target in the 'proj3' project
 //
 
 #import <Availability.h>

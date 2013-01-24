@@ -1,8 +1,8 @@
 //
 //  main.m
-//  projectThree
+//  proj3
 //
-//  Created by Devona Ward on 1/22/13.
+//  Created by Devona Ward on 1/23/13.
 //  Copyright (c) 2013 Devona Ward. All rights reserved.
 //
 
