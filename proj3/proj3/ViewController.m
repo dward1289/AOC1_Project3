@@ -28,14 +28,26 @@
     //Adder converted to number
     NSNumber *theNumber = [NSNumber numberWithInt:addCap];
     //Adder number converted to string
-    NSString *theString = [theNumber stringValue];
-    
+    NSString *theString = [NSString stringWithFormat:@"The number is %@", theNumber];
+    //Adder string in DisplayAlertFunction
     [self DisplayAlertWithString:theString];
     
     //Bool function called
     int num1 = 12;
-    int num2 = 22;
+    int num2 = 12;
     NSLog(@"%i", compare(num1, num2));
+    
+    //Bool function called with UIAlertView
+    if (compare(num1, num2)== YES)
+    {
+        NSString *compareString = [NSString stringWithFormat:@"%i compared to %i = %i which means they are equal.", num1, num2, compare(num1, num2)];
+        [self DisplayAlertWithString:compareString];
+                                                                                                        
+    }
+    else
+    {
+        [self DisplayAlertWithString:@"The two integer values are not equal."];
+    }
     
     //Append function called and captured
     NSString *strings = [self append:@"This is string 1" secondString:@"This is string 2" ];
@@ -46,6 +58,15 @@
         [alertView show];
     }
     
+    //NSString shown in DisplayAlertWithString function
+    [self DisplayAlertWithString:@"This is my string in the DisplayAlertWithStringFunction"];
+    
+    //UIAlertView
+    UIAlertView *anotherAlert = [[UIAlertView alloc] initWithTitle:@"UIAlertView" message:@"Here's another alert." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    if (anotherAlert !=nil)
+    {
+        [anotherAlert show];
+    }
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
